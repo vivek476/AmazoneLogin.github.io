@@ -1,0 +1,44 @@
+
+th {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: left;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgba(190, 183, 183, 0.24);
+}
+.bc {
+  background-color: rgb(38, 133, 150);
+}
+.fg {
+  text-align: center;
+}
+.bbc {
+  margin-top: 400px;
+  background-color: rgb(38, 133, 150);
+}
+.formdesign {
+  font-size: 20px;
+}
+.formdesign input {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid black;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.formerror {
+  color: red;
+}
+.but {
+  border-radius: 9px;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  margin: 22px 20px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazone Login</title>
+  <link rel="stylesheet" href="Style1.css">
+  <script src="loginpage.js"></script>
+</head>
+
+<body>
+  <div class="bc">
+    <table border="0" width="30%" height="5%">
+      <tr>
+        <th><a
+            href="https://www.amazon.in/gp/new-releases/?ref_=nav_cs_newreleases_b9144c00866c4016b948d9b5b5215b45">New
+            Release</a></th>
+        <th><a href="https://www.amazon.in/gp/goldbox?ref_=nav_cs_gb_5bf06ae8328043a2beb2754f40a54c84">Today's Deals</a>
+        </th>
+        <th><a
+            href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help_79404a52982a4d9d973cf256c713999e">Customer
+            Service </a></th>
+      </tr>
+    </table>
+  </div>
+  <h1>Login Information :-</h1>
+
+  <form action="https://www.amazon.in/" name="myform" onsubmit="return validateform()" method="post">
+
+    <div class="formdesign" id="name">
+      Name : <input type="text" name="fname" required><b><span class="formerror"></span></b>
+    </div>
+
+    <div class="formdesign" id="email">
+      E-mail : <input type="email" name="femail" required><b><span class="formerror"><span></b>
+    </div>
+
+    <div class="formdesign" id="phone">
+      Phone : <input type="phone" name="fphone" required><b><span class="formerror"><span></b>
+    </div>
+
+    <div class="formdesign" id="pass">
+      Password : <input type="password" name="fpass" required><b><span class="formerror"><span></b>
+    </div>
+
+    <div class="formdesign" id="cpass">
+      Confirm-Password : <input type="password" name="fcpass" required><b><span class="formerror"><span></b>
+    </div>
+
+    <input class="but" type="submit" value="Submit">
+  </form>
+
+  <div class="bbc">
+    <p class="fg">© Copyright 2018 Amazone.in</p>
+    <p class="fg">All rights reserved.</p>
+  </div>
+
+</body>
+
+</html>
